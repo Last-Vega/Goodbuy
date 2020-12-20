@@ -5,6 +5,10 @@ from .models import *
 def seed():
     # テーブルのデータを消去
     db.session.query(Test).delete()
+    db.session.query(User).delete()
+    # db.session.query(Post).delete()
+    db.session.query(Categories).delete()
+    db.session.query(Questionnaire).delete()
 
     # 初期データを追加
     test_list = [
