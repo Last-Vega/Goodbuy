@@ -110,7 +110,7 @@ def conversion_tweet():
 @api.route("/content_to_tweet", methods=["POST"])
 def conversion_url():
     data = request.get_json()['tweet']['content']
-    original_url = request.get_json()['tweet']['url']
+    original_url = request.get_json()['url'][0]
 
     # https://www.amazon.co.jp/dp/4798163686/ これを目標にする
     # dp/商品コード10桁　

@@ -102,9 +102,9 @@ export default {
         var textAll = this.tweetContent.tweetWhy
         var params = {
           tweet: {
-            content: textAll,
-            url: this.recentUrl
+            content: textAll
           },
+          url: this.recentUrl
         };
         console.log(params);
         this.$api
