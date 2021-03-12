@@ -112,3 +112,5 @@ heroku container:login
   
 ## その他使うコマンド
 - npmやpipのパッケージを更新した時には、変更を反映させるためにdocker-compose up --build (-d)でビルド&コンテナ起動するようにする。
+
+確認
