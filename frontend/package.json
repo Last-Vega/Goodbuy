@@ -12,7 +12,7 @@
     "highcharts": "^9.0.1",
     "vue": "^2.6.12",
     "vue-ctk-date-time-picker": "^2.5.0",
-    "vue-router": "^3.5.1",
+    "vue-router": "^3.5.3",
     "vue2-highcharts": "^1.2.5",
     "vuetify": "^2.4.11",
     "vuetify-datetime-picker": "^2.1.1",
